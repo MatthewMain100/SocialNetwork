@@ -1,0 +1,15 @@
+.userPhoto{
+    width:100px;
+    height: 100px;
+    border-radius: 1000px; /* Радиус скругления */
+    border: 2,5px solid rgb(1, 5, 1); 
+}
+.oneUser{
+        /* width: 250px;	height: 75px; Размеры */
+        padding: 2px;
+        background: rgb(219, 215, 196); /* Цвет фона */
+        outline: 1px solid #000; /* Чёрная рамка */
+        border: 2px solid #fff; /* Белая рамка */
+        border-radius: 10px; /* Радиус скругления */
+        margin-bottom: 10px;
+}

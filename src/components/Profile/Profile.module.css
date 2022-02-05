@@ -1,0 +1,20 @@
+.AppHeader {
+  background-color: #c0769b;
+  min-height: 8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #494d40;;
+  border: 5px solid grey;
+}
+
+/* .content{
+  grid-area: c;
+  background-color: cornsilk;
+} */
+
+.content img{
+  width: 350px;
+}

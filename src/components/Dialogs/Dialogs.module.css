@@ -1,0 +1,30 @@
+.dialogs{
+display: grid;
+grid-template-columns: 4fr 10fr;
+}
+.dialogsItems{
+ padding: 10px;
+}
+/* .dialogsItem .dialog{
+
+} */
+.dialogsItem .active{
+color: gold; 
+}
+
+.messages{
+padding: 10px;
+margin-bottom: 10px;
+}
+.messages .message{
+    margin-bottom: 25px;
+}
+
+.dialogs img{
+    width:40px;
+    height: 40px;
+    border-radius: 1000px; /* Радиус скругления */
+    border: 1,5px solid rgb(1, 5, 1); 
+    /* box-shadow: 0 0 7px #666;  */
+}
+

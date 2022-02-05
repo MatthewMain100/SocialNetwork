@@ -1,0 +1,18 @@
+
+.form_button{
+         padding: 10px 20px;
+         border: none;  /*Без границы блока. */
+         border-radius: 5px; /* Радиус закругления*/
+         font-family: sans-serif;
+         letter-spacing: 1px;
+         font-size: 16xp;
+         color :#fff ; /* Цвет текста*/
+         background-color: #0071f0; /* Цвет фона*/
+         outline: none; /*  Внешней границы элемента */
+         cursor: pointer; /*Тип курсора при наведение*/
+         transition: 0.3s; /* transition позволяет делать */
+}
+
+.posts{
+    margin:10px;
+}

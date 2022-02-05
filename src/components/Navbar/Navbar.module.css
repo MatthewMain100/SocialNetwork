@@ -1,0 +1,33 @@
+.nav{
+  grid-area: n;
+ background-color: burlywood;
+ padding: 20px;
+ 
+}
+
+.nav .item{
+  padding: 4px;
+}
+
+.nav .item a{
+
+text-decoration: none ;
+}
+
+.nav .item a.activeLink{
+  color: gold;
+}
+
+.nav a:link, a:visited, a:focus {
+  background: rgb(199, 156, 99);
+}
+
+.nav a:hover {
+  background: orange;
+  
+}
+
+.nav a:active {
+  background: red;
+  color: white;
+}
