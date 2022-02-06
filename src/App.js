@@ -10,7 +10,7 @@ import './App.css';
 import NewsContainer from './components/News/NewsContainer'
 import DialogsContainer from './components/Dialogs/DialogsContainer';
 import UsersContainer from './components/Users/UsersContainer';
-
+import PhotosContainer from './components/Photos/PhotosContainer';
 
 const App = (props) => {
 
@@ -28,6 +28,8 @@ return (
         <Route  path ="/news" render={ ()=> <NewsContainer />}/>
 
         <Route  path ='/users' render={ ()=> <UsersContainer />}/>
+
+        <Route  path ='/photos' render={ ()=> <PhotosContainer />}/>
 
 
       </div>               

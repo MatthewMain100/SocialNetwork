@@ -12,14 +12,16 @@ let initialState= {
 
 const newsReducer =(state = initialState, action)=> {
     switch(action.type){
-        case UPDATE_NEW_NEWS_BODY:
+        case UPDATE_NEW_NEWS_BODY:{
             state.newPostText = action.body;
             return state;
-        case SEND_NEWS:
+        }
+        case SEND_NEWS:{
             let body = state.newPostText;
             state.newPostText = '';
             state.posts.push({ id: 4, message: body, likesCount: 0});
             return state;
+        }
         default:
             return state;
     }
